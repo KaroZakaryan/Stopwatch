@@ -1,0 +1,11 @@
+{
+  "name": "Stopwatch",
+  "short_name": "sw",
+  "description": "Stopwatch App",
+  "theme_color": "#15e2af",
+  "background_color": "#15e2af",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}

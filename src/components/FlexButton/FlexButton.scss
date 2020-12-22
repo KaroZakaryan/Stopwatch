@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  border: none;
+  color: $white;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-image: $main-gradient;
+  transition: transform 200ms ease;
+  box-shadow: 0 0 30px -5px $alpha-black;
+}

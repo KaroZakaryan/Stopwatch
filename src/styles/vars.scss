@@ -1,0 +1,27 @@
+// color vars
+$white: #fff;
+$black: #000;
+$green: #096215;
+$bg-color: #343d4b;
+$gray-500: #222831;
+$primary-red: #990000;
+$secondary-red: #ff0000;
+$medium-red: #db1212;
+$primary-green: #003e09;
+$medium-green: #0c5d17;
+$secondary-green: #0c801c;
+$secondary-white: #c4b59d;
+$light-green: #0f5b0f;
+$secondary-black: #111;
+$alpha-black: rgba(0, 0, 0, 0.15);
+$alpha-black-main: rgba(0, 0, 0, 0.1);
+$main-gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+$main-gradient-body: linear-gradient(90deg, #d43f8d  0%, #0250c5 100%);
+
+// media queries vars
+$mobile-m: 375px;
+$tablet-m: 576px;
+$tablet: 768px;
+$tablet-l: 992px;
+$desktop: 1024px;
+$wide: 1300px;

@@ -1,0 +1,25 @@
+.title {
+  color: $white;
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 80px;
+  text-align: center;
+  padding: 100px 0 60px;
+  text-shadow: 0 0 4px $white;
+  animation: glow 1.2s ease-in alternate infinite;
+
+  @include breakpoint(tablet-m) {
+    font-size: 46px;
+    line-height: 58px;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 4px 3px 0 $white, 9px 8px 0 $alpha-black;
+    }
+    to {
+      text-shadow: 0 3px 0 #b2a98f, 0 14px 10px $alpha-black,
+        0 24px 2px $alpha-black-main, 0 34px 30px $alpha-black-main;
+    }
+  }
+}
