@@ -13,7 +13,7 @@ Clone down this repository. You will need `node` and `yarn` installed globally o
 
 Installation:
 
-`yarn install`  
+`yarn`  
 
 To Start App:
 
